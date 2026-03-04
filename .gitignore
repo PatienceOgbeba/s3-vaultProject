@@ -1,0 +1,24 @@
+# Terraform state
+terraform.tfstate
+terraform.tfstate.*
+*.tfstate
+*.tfstate.backup
+
+# Terraform directory
+.terraform/
+
+# Terraform variable files
+terraform.tfvars
+*.auto.tfvars
+
+# Sensitive files
+*.pem
+*.key
+*.env
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
