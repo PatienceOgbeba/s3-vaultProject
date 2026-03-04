@@ -19,7 +19,7 @@ This solution uses the following AWS services:
 ---
 
 ## Architecture Diagram
-![Architecture Diagram](architecture.png)
+![Architecture Diagram](legal-vaultbucket.gif)
 
 ---
 
