@@ -60,7 +60,7 @@ resource "aws_s3_bucket_policy" "zero_trust_policy" {
   Sid: "AllowTerraformProvisioning",
   Effect: "Allow",
   Principal: {
-    AWS: "arn:aws:iam::762233737719:user/soniakris"
+    AWS: "arn"
   },
   Action: "s3:*",
   Resource: [
